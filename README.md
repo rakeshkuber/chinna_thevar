@@ -97,6 +97,24 @@ IT mainly consists in the capability of:
 ![image](https://user-images.githubusercontent.com/122355244/214504777-5c8b24ac-999d-4093-9f66-8dd0ad4ec33b.png)
 
 
+<strong>EC2-instance-states</strong>
+1. START - To start the stopped instance. <br>
+2. STOP -  To stop the running instance. <br>
+3. HIBERNATE - when you start up the instance, you're back to where you left off.<br>
+4. TERMINATE PROTECTION - To prevent your instance from being accidentally terminated using Amazon EC2, you can enable termination protection for the instance.<br>
+
+<strong>ENABLING HIBERNATE FOR THE INSTANCE </strong> 
+
+Follow the Link: [HIBERNATE](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enabling-hibernation.html)
+
+<strong>TERMINATE PROTECTION</strong>
+
+Select_instance -> click action-> instance settings-> change terminate protection and click enable.
+
+![image](https://user-images.githubusercontent.com/122355244/214742070-b1375898-d9e6-436e-a55f-260a49ea2904.png)
+
+![image](https://user-images.githubusercontent.com/122355244/214742191-0a30dd9c-3ccb-4531-9de3-78c37e8f882a.png)
+
 ***
 
 <div id='id-VPC'/>
