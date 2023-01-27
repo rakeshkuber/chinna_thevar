@@ -167,6 +167,10 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
           5. Network ACL is the Network Firewall which is having INBOUND AND OUTBOUND rules.<br>
 6. Security Group: Will work at ec2-instance level. All the inbound and out bound traffic to your ec2-instance passing your security group.<b>
 
+Deploy the EC2-instance in the selected subnet. When you deployed the EC2-instance on a specified subnet. AWS will automatically allocate a avilable IP address in the subnet range and AWS crate a default ROUTE TABLE.
+7. Route tables are associated with subnets.
+   7.1 One subnet have only one route table.
+8. Create internet gateway associated with the VPC.
 
 <div id='id-VPC'/>
 <div id='id-Lambda'/>
