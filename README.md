@@ -133,7 +133,15 @@ Steps to change EC2 instance type:
 <div id='id-VPC'/>
 <h2>VPC:</h2>
 <strong>what is VPC ?</strong> <br>
-VPC provides us the private space that is required inside aws where we can define our own network and also use all the services of AWS. As per our requirement.
+VPC provides us the private space that is required inside aws where we can define our own network and also use all the services of AWS. As per our requirement. <br>
+Techincal explanation: AWS VPC lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
+
+<strong>Why VPC ? </strong>
+ 
+The 3 most essential benefits yo get from a VPC are privacy, security and prevention from loss of proprierty data.
+
+![image](https://user-images.githubusercontent.com/122355244/214985993-6bd5c57d-98c8-4451-909a-6e50bebc9b8f.png)
+
 
 <div id='id-VPC'/>
 <div id='id-Lambda'/>
