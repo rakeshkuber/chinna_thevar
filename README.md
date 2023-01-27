@@ -115,7 +115,25 @@ Select_instance -> click action-> instance settings-> change terminate protectio
 
 ![image](https://user-images.githubusercontent.com/122355244/214742191-0a30dd9c-3ccb-4531-9de3-78c37e8f882a.png)
 
+<strong>EC2-INSTANCE TYPES</strong>
+![image](https://user-images.githubusercontent.com/122355244/214745273-386ac321-2aed-49ab-8e99-90361ea41b9e.png)
+
+Steps to change EC2 instance type:
+
+1. Stop the instance
+2. Select instance -> Action -> Instance settings -> change instance type.
+ ![image](https://user-images.githubusercontent.com/122355244/214747896-1101d548-6058-406f-b640-3f8fd45ce9e5.png)<br>
+ 
+![image](https://user-images.githubusercontent.com/122355244/214748733-55764f75-0304-4e15-ac46-8c63d7de687e.png)
+
+
+
 ***
+
+<div id='id-VPC'/>
+<h2>VPC:</h2>
+<strong>what is VPC ?</strong> <br>
+VPC provides us the private space that is required inside aws where we can define our own network and also use all the services of AWS. As per our requirement.
 
 <div id='id-VPC'/>
 <div id='id-Lambda'/>
