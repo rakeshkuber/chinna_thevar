@@ -165,12 +165,15 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
           3. Subnet can be associated with only one Avilability zone.Once the subet is created need to define the network ACl.<br>
           4. One-subent have only one NETWORK ACL.<br>
           5. Network ACL is the Network Firewall which is having INBOUND AND OUTBOUND rules.<br>
-6. Security Group: Will work at ec2-instance level. All the inbound and out bound traffic to your ec2-instance passing your security group.<b>
-
-Deploy the EC2-instance in the selected subnet. When you deployed the EC2-instance on a specified subnet. AWS will automatically allocate a avilable IP address in the subnet range and AWS crate a default ROUTE TABLE.
-7. Route tables are associated with subnets.
-   7.1 One subnet have only one route table.
+6. Security Group: Will work at ec2-instance level. All the inbound and out bound traffic to your ec2-instance passing your security group.<br>
+    Deploy the EC2-instance in the selected subnet. When you deployed the EC2-instance on a specified subnet. AWS will automatically allocate a avilable IP address in     the subnet range and AWS crate a default ROUTE TABLE. <br>
+7. Route tables are associated with subnets.<br>
+   - 7.1 One subnet have only one route table.<br>
 8. Create internet gateway associated with the VPC.
+
+<strong>Refer the snapshot</strong>
+![image](https://user-images.githubusercontent.com/122355244/214994296-9a5cab24-9b24-41be-bc71-ba7e7ccd0422.png)
+
 
 <div id='id-VPC'/>
 <div id='id-Lambda'/>
