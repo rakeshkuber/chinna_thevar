@@ -215,6 +215,19 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
   Use below link for quick calculation.
 
   [CIDR CALCULATION](https://mxtoolbox.com/subnetcalculator.aspx)
+  
+  
+  <strong>Break VPC into 2 subnets</strong>
+
+   Subnet 1 (128)
+   172.31.0.0/25
+   Network Portion - 25
+   Host Portion    - 7 
+
+   Subnet 2 (128)
+   172.31.0.0/25
+   Network Portion - 25
+   Host Portion    - 7 
 
   4. Sucessfully created VPC.
      ![image](https://user-images.githubusercontent.com/122355244/215370042-41b22d1f-5786-41b2-9bae-7779a41ddd4f.png) <br>
