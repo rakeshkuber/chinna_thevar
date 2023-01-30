@@ -188,7 +188,7 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
     Short note for what is CIDR and how to calculate:<br>
     Using CIDR block we can define IP address pattern along with that we can also can decide how many address will need inside this VPC.<br>
 
-   Inside CIDR portion we have two portions.<br>
+   <strong>Inside CIDR portion we have two portions.</strong><br>
          1. Network portion
          2. Host portion
 
