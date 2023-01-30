@@ -199,9 +199,7 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
    172.31.0 -> This is allocated to network portion.
 
    Remaning 0 -> This is alloacted to host portion.
-
-   172.31.0 is 8+8+8 = 24
-
+   
    Note: Each octat is 8 bits.
 
    Network portion 24
