@@ -88,7 +88,7 @@ IT mainly consists in the capability of:
 
 <strong>CONNECTING INSTANCE WITH PUTTY</STRONG>
 
-1. Copy the public key and open the putty.
+1. Be handy with .ppk file and open the putty.
 2. Before connecting to instance. Import the PPK file in putty.
 
 ![image](https://user-images.githubusercontent.com/122355244/214504262-66a11957-f0f8-4588-8f0d-0d654c4d4b42.png)
