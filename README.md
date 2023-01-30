@@ -227,6 +227,18 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
   7. Create Route table:
       If you refer the below route table. Already one route table creeated for your VPC. That is called main route table. Main route table automatically get created by your VPC.
       ![image](https://user-images.githubusercontent.com/122355244/215372736-befc91d1-f8c0-479d-92ab-679436b1cfa6.png)
+      When you click on the routes. It has one entry stating that all the traffic should go through the local gateway if the destination falling under the VPC range.         If you want you can create custom route table. 
+       
+       <strong>CREATE CUSTOM ROUTE TABLE:</strong>
+       
+       ![image](https://user-images.githubusercontent.com/122355244/215373626-0993cb91-eabb-4cb0-b823-24b421ef8e5f.png) <br>
+       Specify your VPC and create route table.
+       ![image](https://user-images.githubusercontent.com/122355244/215373845-91070d17-2c6a-4f9d-be98-12040238b078.png)<r>
+       ![image](https://user-images.githubusercontent.com/122355244/215373903-697d384a-0c0b-4ab3-a6d7-6b6741ad76ef.png)
+
+
+
+       
 
 
 
