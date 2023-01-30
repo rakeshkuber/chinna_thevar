@@ -184,38 +184,38 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
  3. Select VPC only and provide your name tag.<br>
 ![image](https://user-images.githubusercontent.com/122355244/215368362-7c4e425b-074c-416e-8948-fa112d73579e.png)
 
- 4. specify your IPV4 CIDR.
-    Short note for what is CIDR and how to calculate:
-    Using CIDR block we can define IP address pattern along with that we can also can decide how many address will need inside this VPC.
+ 4. specify your IPV4 CIDR.<br>
+    Short note for what is CIDR and how to calculate:<br>
+    Using CIDR block we can define IP address pattern along with that we can also can decide how many address will need inside this VPC.<br>
 
-Inside CIDR portan we have two portions.
+       Inside CIDR portan we have two portions.
 
-1. Network portion
-2. Host portion
+         1. Network portion
+         2. Host portion
 
-172.31.0.0/24
+            172.31.0.0/24
 
-When we say 24 which is equalent to 3 octats
+            When we say 24 which is equalent to 3 octats
 
-172.31.0 -> This is allocated to network portion.
+            172.31.0 -> This is allocated to network portion.
 
-Remaning 0 -> This is alloacted to host portion.
+            Remaning 0 -> This is alloacted to host portion.
 
-172.31.0 is 8+8+8 = 24
+            172.31.0 is 8+8+8 = 24
 
-Note: Each octat is 8 bits.
+            Note: Each octat is 8 bits.
 
-Network portion 24
+            Network portion 24
 
-Host portion - 8 
+            Host portion - 8 
 
-2^8 = 256
+            2^8 = 256
 
-we will get 256 IP'S inside the VPC.
+            we will get 256 IP'S inside the VPC.
 
-Use below link for quick calculation.
+            Use below link for quick calculation.
 
-[CIDR CALCULATION](https://mxtoolbox.com/subnetcalculator.aspx)
+            [CIDR CALCULATION](https://mxtoolbox.com/subnetcalculator.aspx)
 
   
 
