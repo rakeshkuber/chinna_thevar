@@ -217,7 +217,16 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
 
             [CIDR CALCULATION](https://mxtoolbox.com/subnetcalculator.aspx)
 
-  
+  4. Sucessfully created VPC.
+     ![image](https://user-images.githubusercontent.com/122355244/215370042-41b22d1f-5786-41b2-9bae-7779a41ddd4f.png) <br>
+  5. Once VPC got successfully created. we need to create subnet.<br>
+    ![image](https://user-images.githubusercontent.com/122355244/215370347-7fcc4f59-606c-48cb-a077-32aaa9bb752d.png) <br>
+  6. Refer the below snap shot.<br>
+     ![image](https://user-images.githubusercontent.com/122355244/215370853-a14f1d5d-3fca-4683-bbcb-22968cf560b2.png) <br>
+     ![image](https://user-images.githubusercontent.com/122355244/215370945-41a8ef49-f19e-4e62-a11c-6ab2b4901bd2.png)
+
+
+
 
 
 
