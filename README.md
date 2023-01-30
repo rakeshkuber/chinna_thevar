@@ -225,7 +225,7 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
      ![image](https://user-images.githubusercontent.com/122355244/215370853-a14f1d5d-3fca-4683-bbcb-22968cf560b2.png) <br>
      ![image](https://user-images.githubusercontent.com/122355244/215370945-41a8ef49-f19e-4e62-a11c-6ab2b4901bd2.png) <br>
   7. Create Route table:
-      If you refer the below route table. Already one route table creeated for your VPC. that is called main route table. Main route table automatically get created by your VPC.
+      If you refer the below route table. Already one route table creeated for your VPC. That is called main route table. Main route table automatically get created by your VPC.
       ![image](https://user-images.githubusercontent.com/122355244/215372736-befc91d1-f8c0-479d-92ab-679436b1cfa6.png)
 
 
