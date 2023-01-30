@@ -160,9 +160,9 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
 3. Network range of the VPC.
 4. Availability Zone.
 5. Subnet:<br>
-          1. Logical network segment with in the VPC when you defined the subnet. subet should have netwrok range.<br>
+          1. A subnet is a range of IP addresses in your VPC. <br>
           2. Network range of the subnet should be within the range of the VPC.<br>
-          3. Subnet can be associated with only one Avilability zone.Once the subet is created need to define the network ACl.<br>
+          3. Subnet can be associated with only one Avilability zone.Once the subnet is created need to define the network ACl.<br>
           4. One-subent have only one NETWORK ACL.<br>
           5. Network ACL is the Network Firewall which is having INBOUND AND OUTBOUND rules.<br>
 6. Security Group: Will work at ec2-instance level. All the inbound and out bound traffic to your ec2-instance passing your security group.<br>
