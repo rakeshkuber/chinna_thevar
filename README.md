@@ -138,13 +138,13 @@ Techincal explanation: AWS VPC lets you provision a logically isolated section o
 
 <strong>Why VPC ? </strong>
  
-The 3 most essential benefits yo get from a VPC are privacy, security and prevention from loss of proprierty data.
+The 3 most essential benefits you get from a VPC are privacy, security and prevention from loss of proprierty data.
 
 ![image](https://user-images.githubusercontent.com/122355244/214985993-6bd5c57d-98c8-4451-909a-6e50bebc9b8f.png)
 
 <strong> COMPONENTS OF VPC </strong> 
 
-1. Internet Gateway & NAT - It logically enables routing of traffics in the public netwrok.
+1. Internet Gateway & NAT - It logically enables routing of traffics in the public network.
 2. DNS: Standard which resolve names used over the internet into IP address. 
 3. Elastic Ip: Its a static Ip which never changes.
 4. VPC Endpoints: Private connection between your VPC and other AWS services without using internet.
@@ -156,8 +156,8 @@ The 3 most essential benefits yo get from a VPC are privacy, security and preven
 <strong>CREATING CUSTOM VPC THROUGH AWS CONSOLE:</strong>
 
 1. Select Region
-2. VPC_layer: Allows you to create custom network topoloy and custom network configuration for your ec2-instance based on your appliaction needs.
-3. Network range of thee VPC.
+2. VPC_layer: Allows you to create custom network topology and custom network configuration for your ec2-instance based on your appliaction needs.
+3. Network range of three VPC.
 4. Availability Zone.
 5. Subnet:<br>
           1. Logical network segment with in the VPC when you defined the subnet. subet should have netwrok range.<br>
