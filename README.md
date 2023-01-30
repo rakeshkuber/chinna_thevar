@@ -157,7 +157,7 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
 
 1. Select Region
 2. VPC_layer: Allows you to create custom network topology and custom network configuration for your ec2-instance based on your appliaction needs.
-3. Network range of three VPC.
+3. Network range of the VPC.
 4. Availability Zone.
 5. Subnet:<br>
           1. Logical network segment with in the VPC when you defined the subnet. subet should have netwrok range.<br>
