@@ -320,11 +320,14 @@ Create a NAT gateway.
 
 Once the NAT-Gateway is created headover to the routet tables and the routes accrodingly. select the route table which is associated with your private subnet.
 
-![image](https://user-images.githubusercontent.com/122355244/215836739-fecf62e6-c94a-4826-918d-6ce67b1709d8.png)
+![image](https://user-images.githubusercontent.com/122355244/215836739-fecf62e6-c94a-4826-918d-6ce67b1709d8.png) <br>
+
+![image](https://user-images.githubusercontent.com/122355244/215837684-33312b5f-ac33-490d-91a9-f8cf585f9d11.png)
+
 
 Specifiy that by default the network traffic should go the NAT-gateway if the destination is not falling under the VPC range. Hence select 0.0.0.0/0
 
-
+Post this check try to ping google or try to install any pakages to validate.  
 
 
 
