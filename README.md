@@ -140,7 +140,7 @@ Techincal explanation: AWS VPC lets you provision a logically isolated section o
  
 The 3 most essential benefits you get from a VPC are privacy, security and prevention from loss of proprierty data.
 
-    ![image](https://user-images.githubusercontent.com/122355244/214985993-6bd5c57d-98c8-4451-909a-6e50bebc9b8f.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214985993-6bd5c57d-98c8-4451-909a-6e50bebc9b8f.png)
 
 <strong> COMPONENTS OF VPC </strong> 
 
@@ -283,14 +283,12 @@ In this lab we will create one ec-2 instance with public subnet and one ec-2 ins
 Bastion host: A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the Internet
 
 Heading over to the AWS console to deploy the VPC architecture.
-
 1. Create a vpc
 2. Create a subnet(public)
 3. Create custom route table.
 4. Create a Internet gateway
-(Already coverd in the previous lab (public).
-
-
+   
+(Already coverd in the previous lab (public).<br>
 
  1. create a new subnet (private)
  2. create a custom route table.
@@ -308,8 +306,25 @@ Make sure you have 600 permision for your key(security reasons)
 
 ![image](https://user-images.githubusercontent.com/122355244/215828848-80439040-1f5e-46cd-9dac-c1f717da7e0a.png)
 
+successfully connected to the private ec-2 instance. 
 
+In future if you want to install any rpm files or update the files you need internet access. As we metioned this a private instance you will not have a internt access. 
 
+but by using the NAT connection. we can achieve this. 
+
+Create a NAT gateway. 
+
+![image](https://user-images.githubusercontent.com/122355244/215830671-93e807f7-044c-42dc-abb2-358c9a728e2e.png)
+
+![image](https://user-images.githubusercontent.com/122355244/215831329-3126ddf5-fb06-4113-a95e-ba0984d7228a.png)
+
+Once the NAT-Gateway is created headover to the routet tables and the routes accrodingly. select the route table which is associated with your private subnet.
+
+![image](https://user-images.githubusercontent.com/122355244/215832315-a0daf36c-3e18-4cf1-90e6-810767ba8289.png)
+
+Specifiy that by default the network traffic should go the NAT-gateway if the destination is not falling under the VPC range. Hence select 0.0.0.0/0
+
+![image](https://user-images.githubusercontent.com/122355244/215832799-c36ecee7-349d-42a1-a2d6-29be65aac667.png)
 
 
 
