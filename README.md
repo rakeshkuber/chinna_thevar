@@ -327,7 +327,7 @@ Once the NAT-Gateway is created headover to the routet tables and the routes acc
 
 Specifiy that by default the network traffic should go the NAT-gateway if the destination is not falling under the VPC range. Hence select 0.0.0.0/0
 
-Post this check try to ping google or try to install any pakages to validate.  
+Post this check try to ping google or try to install any pakagesin the private subnet instance to validate.  
 
 
 
