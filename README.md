@@ -278,11 +278,33 @@ Resources like database may require connection to internet for updates/patches b
 
 <strong>Private Subnet vs Public subnet(LAB)</strong> <br>
 
-  
+In this lab we will create one ec-2 instance with public subnet and one ec-2 instance with private subnet then we will see the configuration required at the route-table level to have access to the priavte ec2 instance and see how to login to the private ec-2 instacne via th bastion host. 
 
+Bastion host: A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the Internet
 
-       
+Heading over to the AWS console to deploy the VPC architecture.
 
+1. Create a vpc
+2. Create a subnet(public)
+3. Create custom route table.
+4. Create a Internet gateway
+(Already coverd in the previous lab (public).
+
+1. create a new subnet (private)
+2. create a custom route table.
+3. create and deploy the ec2-instance in private subnet. 
+4. Try to connect the server but you won't because you have create the EC2-instance in private subnet.
+
+In order to login to the private ec-2 instance you must have a public server. 
+
+Already have a public server. trying to take SSH from the public server.<br>
+![image](https://user-images.githubusercontent.com/122355244/215827293-327d4f0d-135a-40de-ae64-0d4feb3d57c2.png)
+
+As you notice. permission is denied. In this case you have to take ssh with the pem key. (Mycase i'm using one key for all the server provisioning)
+
+Make sure you have 600 permision for your key(security reasons)
+
+![image](https://user-images.githubusercontent.com/122355244/215828848-80439040-1f5e-46cd-9dac-c1f717da7e0a.png)
 
 
 
