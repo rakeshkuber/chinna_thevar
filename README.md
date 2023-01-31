@@ -259,6 +259,11 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
      ![image](https://user-images.githubusercontent.com/122355244/215736665-810a4d37-5a9c-4366-a3a5-9ed0809ccdce.png)<br>
      Note: 0.0.0.0/0. Allows inbound HTTP access from any IPv4 address. TCP. 6. 443 (HTTPS)
 
+  <strong> Test your VPC through provisioning new instance</strong>
+  Note: You have the VPC and subnet which you have created not the default one.<br>
+  ![image](https://user-images.githubusercontent.com/122355244/215737727-e9295066-3ab6-4702-bebc-1f1704c685e7.png)
+  
+   <strong>HAPPY LEARNING</strong>
 
 
 
