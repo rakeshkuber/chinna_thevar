@@ -290,10 +290,12 @@ Heading over to the AWS console to deploy the VPC architecture.
 4. Create a Internet gateway
 (Already coverd in the previous lab (public).
 
-1. create a new subnet (private)
-2. create a custom route table.
-3. create and deploy the ec2-instance in private subnet. 
-4. Try to connect the server but you won't because you have create the EC2-instance in private subnet.
+
+
+ 1. create a new subnet (private)
+ 2. create a custom route table.
+ 3. create and deploy the ec2-instance in private subnet. 
+ 4. Try to connect the server but you won't because you have create the EC2-instance in private subnet.
 
 In order to login to the private ec-2 instance you must have a public server. 
 
