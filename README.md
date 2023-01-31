@@ -243,9 +243,16 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
        
        ![image](https://user-images.githubusercontent.com/122355244/215373626-0993cb91-eabb-4cb0-b823-24b421ef8e5f.png) <br>
        Specify your VPC and create route table.
-       ![image](https://user-images.githubusercontent.com/122355244/215373845-91070d17-2c6a-4f9d-be98-12040238b078.png)<r>
-       ![image](https://user-images.githubusercontent.com/122355244/215373903-697d384a-0c0b-4ab3-a6d7-6b6741ad76ef.png)
+       ![image](https://user-images.githubusercontent.com/122355244/215373845-91070d17-2c6a-4f9d-be98-12040238b078.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215373903-697d384a-0c0b-4ab3-a6d7-6b6741ad76ef.png)<br>
+        
+     8. Once the Route table is created. Add the subnet to the route table which you created in the second step.<br>
+        ![image](https://user-images.githubusercontent.com/122355244/215733349-406e04da-e770-45f7-9f04-8a242d115c6a.png)<br>
+        ![image](https://user-images.githubusercontent.com/122355244/215733877-b392bbe5-55d1-40e2-a6c5-3b79b8ed3303.png)<br>
+     9. Now, create Internet gateway for your VPC.<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215734304-9721ed3e-da33-488d-bac1-bf2edde21bb0.png)<br>
 
+  
 
 
        
