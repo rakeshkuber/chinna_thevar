@@ -246,11 +246,21 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
        ![image](https://user-images.githubusercontent.com/122355244/215373845-91070d17-2c6a-4f9d-be98-12040238b078.png)<br>
        ![image](https://user-images.githubusercontent.com/122355244/215373903-697d384a-0c0b-4ab3-a6d7-6b6741ad76ef.png)<br>
         
-    8. Once the Route table is created. Add the subnet to the route table which you created in the second step.<br>
+  8. Once the Route table is created. Add the subnet to the route table which you created in the second step.<br>
         ![image](https://user-images.githubusercontent.com/122355244/215733349-406e04da-e770-45f7-9f04-8a242d115c6a.png)<br>
         ![image](https://user-images.githubusercontent.com/122355244/215733877-b392bbe5-55d1-40e2-a6c5-3b79b8ed3303.png)<br>
-    9. Now, create Internet gateway for your VPC.<br>
+  9. Now, create Internet gateway for your VPC.<br>
        ![image](https://user-images.githubusercontent.com/122355244/215734304-9721ed3e-da33-488d-bac1-bf2edde21bb0.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215735118-a6ecdd37-23e4-43f8-b9f9-d00468067b60.png)<br>
+ 10. Once the Internet gateway attach to your VPC<br>
+     ![image](https://user-images.githubusercontent.com/122355244/215735685-9d94f92c-ef33-4674-afef-ced16c95e158.png)<br>
+ 11. Now add theInternet gateway to your route table.
+     ![image](https://user-images.githubusercontent.com/122355244/215736369-36998f1a-9f33-410f-8d49-039646183a0e.png)<br>
+     ![image](https://user-images.githubusercontent.com/122355244/215736665-810a4d37-5a9c-4366-a3a5-9ed0809ccdce.png)<br>
+     Note: 0.0.0.0/0. Allows inbound HTTP access from any IPv4 address. TCP. 6. 443 (HTTPS)
+
+
+
 
   
 
