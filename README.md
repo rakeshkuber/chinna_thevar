@@ -44,7 +44,7 @@ Virtualization in computing is the process of simulating hardware and software i
 The Software that creates and runs the virtualization is called a hypervisor. Two types of hypervisors are available in the market. 
 Refer the below Image:
 
-![](https://networkinterview.com/wp-content/uploads/2019/12/hypervisor.jpg)
+   ![](https://networkinterview.com/wp-content/uploads/2019/12/hypervisor.jpg)
 
 <strong>EC2 is a webservice which aims to make life easier for developers by providing secure and resizable compute capacity in the cloud.</strong>
 <br>
@@ -58,43 +58,43 @@ IT mainly consists in the capability of:
 <strong> PRACTICALLY WE WILL SEE HERE HOW TO CREATE EC2-INSTANCE</strong>
 
 1. First select your desired region and click the Instances.
-![image](https://user-images.githubusercontent.com/122355244/214496410-7642730d-de0a-49a6-b848-de93f73f2348.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214496410-7642730d-de0a-49a6-b848-de93f73f2348.png)
 2.Select launch instance:
-![image](https://user-images.githubusercontent.com/122355244/214496718-0ab9f39f-b806-42dc-b375-93fabbdee5fa.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214496718-0ab9f39f-b806-42dc-b375-93fabbdee5fa.png)
 3. Provide the name and tags:
-![image](https://user-images.githubusercontent.com/122355244/214496967-e46d22cd-c958-4cd2-8c74-ff125a0103b1.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214496967-e46d22cd-c958-4cd2-8c74-ff125a0103b1.png)
 4. Select the AMI type. For My case i have selected the AMAZON ec2-free tier.<br>
-![image](https://user-images.githubusercontent.com/122355244/214497242-bb79729b-b772-4c0a-aa05-104183040e89.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214497242-bb79729b-b772-4c0a-aa05-104183040e89.png)
 5. Select the instance type.<br>
-![image](https://user-images.githubusercontent.com/122355244/214497475-3f9012ae-36f0-4ef4-a230-b6c7e6cb73a1.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214497475-3f9012ae-36f0-4ef4-a230-b6c7e6cb73a1.png)
 6. Create key pair.<br>
-![image](https://user-images.githubusercontent.com/122355244/214497548-36fa53f2-074c-4218-ba7c-51ee2bb831d6.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214497548-36fa53f2-074c-4218-ba7c-51ee2bb831d6.png)
 7. Create Security.<br>
-![image](https://user-images.githubusercontent.com/122355244/214497718-6ce210fe-462a-4085-83fd-29b36888c767.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214497718-6ce210fe-462a-4085-83fd-29b36888c767.png)
  <br> 
  <strong>Note: You can select any other secuirty group also if its available. In this case we are creating new SG group.</strong>
  
 8.Will see fruther about firewall rules detailed in firewall section seperatly. As of now everything is default.
-![image](https://user-images.githubusercontent.com/122355244/214498138-025840dc-1a4b-4d55-ba65-ae09d0a517c7.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214498138-025840dc-1a4b-4d55-ba65-ae09d0a517c7.png)
 
 9.Select Volume Type
 <br>
-![image](https://user-images.githubusercontent.com/122355244/214498198-6967edd1-9a66-4366-bbbf-0a5d22e1c503.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214498198-6967edd1-9a66-4366-bbbf-0a5d22e1c503.png)
 <br>
 10. Now launch the instance.<br>
-![image](https://user-images.githubusercontent.com/122355244/214498425-0cd2f0fe-ddca-46a5-8aa0-fa4d8bb9d72b.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214498425-0cd2f0fe-ddca-46a5-8aa0-fa4d8bb9d72b.png)
 11. Provisioned instance will be available in the GUI.
-![image](https://user-images.githubusercontent.com/122355244/214501518-096bc437-a912-476e-8c81-344893c97ed0.png)<br>
+   ![image](https://user-images.githubusercontent.com/122355244/214501518-096bc437-a912-476e-8c81-344893c97ed0.png)<br>
 
 <strong>CONNECTING INSTANCE WITH PUTTY</STRONG>
 
 1. Be handy with .ppk file and open the putty.
 2. Before connecting to instance. Import the PPK file in putty.
 
-![image](https://user-images.githubusercontent.com/122355244/214504262-66a11957-f0f8-4588-8f0d-0d654c4d4b42.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214504262-66a11957-f0f8-4588-8f0d-0d654c4d4b42.png)
 
 3. sucessfully connecting with instance with putty through public ip.
-![image](https://user-images.githubusercontent.com/122355244/214504777-5c8b24ac-999d-4093-9f66-8dd0ad4ec33b.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214504777-5c8b24ac-999d-4093-9f66-8dd0ad4ec33b.png)
 
 
 <strong>EC2-instance-states</strong>
@@ -111,20 +111,20 @@ Follow the Link: [HIBERNATE](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide
 
 Select_instance -> click action-> instance settings-> change terminate protection and click enable.
 
-![image](https://user-images.githubusercontent.com/122355244/214742070-b1375898-d9e6-436e-a55f-260a49ea2904.png)
+    ![image](https://user-images.githubusercontent.com/122355244/214742070-b1375898-d9e6-436e-a55f-260a49ea2904.png)
 
-![image](https://user-images.githubusercontent.com/122355244/214742191-0a30dd9c-3ccb-4531-9de3-78c37e8f882a.png)
+    ![image](https://user-images.githubusercontent.com/122355244/214742191-0a30dd9c-3ccb-4531-9de3-78c37e8f882a.png)
 
 <strong>EC2-INSTANCE TYPES</strong>
-![image](https://user-images.githubusercontent.com/122355244/214745273-386ac321-2aed-49ab-8e99-90361ea41b9e.png)
+    ![image](https://user-images.githubusercontent.com/122355244/214745273-386ac321-2aed-49ab-8e99-90361ea41b9e.png)
 
 Steps to change EC2 instance type:
 
 1. Stop the instance
 2. Select instance -> Action -> Instance settings -> change instance type.
- ![image](https://user-images.githubusercontent.com/122355244/214747896-1101d548-6058-406f-b640-3f8fd45ce9e5.png)<br>
+   ![image](https://user-images.githubusercontent.com/122355244/214747896-1101d548-6058-406f-b640-3f8fd45ce9e5.png)<br>
  
-![image](https://user-images.githubusercontent.com/122355244/214748733-55764f75-0304-4e15-ac46-8c63d7de687e.png)
+   ![image](https://user-images.githubusercontent.com/122355244/214748733-55764f75-0304-4e15-ac46-8c63d7de687e.png)
 
 
 
@@ -140,7 +140,7 @@ Techincal explanation: AWS VPC lets you provision a logically isolated section o
  
 The 3 most essential benefits you get from a VPC are privacy, security and prevention from loss of proprierty data.
 
-![image](https://user-images.githubusercontent.com/122355244/214985993-6bd5c57d-98c8-4451-909a-6e50bebc9b8f.png)
+    ![image](https://user-images.githubusercontent.com/122355244/214985993-6bd5c57d-98c8-4451-909a-6e50bebc9b8f.png)
 
 <strong> COMPONENTS OF VPC </strong> 
 
@@ -172,17 +172,17 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
 8. Create internet gateway associated with the VPC.
 
 <strong>Refer the snapshot</strong>
-![image](https://user-images.githubusercontent.com/122355244/214994296-9a5cab24-9b24-41be-bc71-ba7e7ccd0422.png)
+     ![image](https://user-images.githubusercontent.com/122355244/214994296-9a5cab24-9b24-41be-bc71-ba7e7ccd0422.png)
 
 <strong>STEPS TO CREATE TO CUSTOM VPC</strong>
  
  1. In search panel type VPC and browse.
- ![image](https://user-images.githubusercontent.com/122355244/215366834-b458f80a-74cb-4132-b112-b2afe10c44ef.png) <br>
+     ![image](https://user-images.githubusercontent.com/122355244/215366834-b458f80a-74cb-4132-b112-b2afe10c44ef.png) <br>
  2. Create VPC<br>
- ![image](https://user-images.githubusercontent.com/122355244/215366877-707985c4-283c-4bb1-ae76-38c775e742cd.png)
+     ![image](https://user-images.githubusercontent.com/122355244/215366877-707985c4-283c-4bb1-ae76-38c775e742cd.png)
 
  3. Select VPC only and provide your name tag.<br>
-![image](https://user-images.githubusercontent.com/122355244/215368362-7c4e425b-074c-416e-8948-fa112d73579e.png)
+     ![image](https://user-images.githubusercontent.com/122355244/215368362-7c4e425b-074c-416e-8948-fa112d73579e.png)
 
  4. specify your IPV4 CIDR.<br>
     Short note for what is CIDR and how to calculate:<br>
@@ -228,15 +228,15 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
    Host Portion    - 7 
 
   4. Sucessfully created VPC.
-     ![image](https://user-images.githubusercontent.com/122355244/215370042-41b22d1f-5786-41b2-9bae-7779a41ddd4f.png) <br>
+       ![image](https://user-images.githubusercontent.com/122355244/215370042-41b22d1f-5786-41b2-9bae-7779a41ddd4f.png) <br>
   5. Once VPC got successfully created. we need to create subnet.<br>
-    ![image](https://user-images.githubusercontent.com/122355244/215370347-7fcc4f59-606c-48cb-a077-32aaa9bb752d.png) <br>
+       ![image](https://user-images.githubusercontent.com/122355244/215370347-7fcc4f59-606c-48cb-a077-32aaa9bb752d.png) <br>
   6. Refer the below snap shot.<br>
-     ![image](https://user-images.githubusercontent.com/122355244/215370853-a14f1d5d-3fca-4683-bbcb-22968cf560b2.png) <br>
-     ![image](https://user-images.githubusercontent.com/122355244/215370945-41a8ef49-f19e-4e62-a11c-6ab2b4901bd2.png) <br>
+       ![image](https://user-images.githubusercontent.com/122355244/215370853-a14f1d5d-3fca-4683-bbcb-22968cf560b2.png) <br>
+       ![image](https://user-images.githubusercontent.com/122355244/215370945-41a8ef49-f19e-4e62-a11c-6ab2b4901bd2.png) <br>
   7. Create Route table:
       If you refer the below route table. Already one route table creeated for your VPC. That is called main route table. Main route table automatically get created by your VPC.
-      ![image](https://user-images.githubusercontent.com/122355244/215372736-befc91d1-f8c0-479d-92ab-679436b1cfa6.png)
+       ![image](https://user-images.githubusercontent.com/122355244/215372736-befc91d1-f8c0-479d-92ab-679436b1cfa6.png)
       When you click on the routes. It has one entry stating that all the traffic should go through the local gateway if the destination falling under the VPC range.         If you want you can create custom route table. 
        
        <strong>CREATE CUSTOM ROUTE TABLE:</strong>
@@ -247,16 +247,16 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
        ![image](https://user-images.githubusercontent.com/122355244/215373903-697d384a-0c0b-4ab3-a6d7-6b6741ad76ef.png)<br>
         
   8. Once the Route table is created. Add the subnet to the route table which you created in the second step.<br>
-        ![image](https://user-images.githubusercontent.com/122355244/215733349-406e04da-e770-45f7-9f04-8a242d115c6a.png)<br>
-        ![image](https://user-images.githubusercontent.com/122355244/215733877-b392bbe5-55d1-40e2-a6c5-3b79b8ed3303.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215733349-406e04da-e770-45f7-9f04-8a242d115c6a.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215733877-b392bbe5-55d1-40e2-a6c5-3b79b8ed3303.png)<br>
   9. Now, create Internet gateway for your VPC.<br>
        ![image](https://user-images.githubusercontent.com/122355244/215734304-9721ed3e-da33-488d-bac1-bf2edde21bb0.png)<br>
        ![image](https://user-images.githubusercontent.com/122355244/215735118-a6ecdd37-23e4-43f8-b9f9-d00468067b60.png)<br>
  10. Once the Internet gateway attach to your VPC<br>
-     ![image](https://user-images.githubusercontent.com/122355244/215735685-9d94f92c-ef33-4674-afef-ced16c95e158.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215735685-9d94f92c-ef33-4674-afef-ced16c95e158.png)<br>
  11. Now add theInternet gateway to your route table.
-     ![image](https://user-images.githubusercontent.com/122355244/215736369-36998f1a-9f33-410f-8d49-039646183a0e.png)<br>
-     ![image](https://user-images.githubusercontent.com/122355244/215736665-810a4d37-5a9c-4366-a3a5-9ed0809ccdce.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215736369-36998f1a-9f33-410f-8d49-039646183a0e.png)<br>
+       ![image](https://user-images.githubusercontent.com/122355244/215736665-810a4d37-5a9c-4366-a3a5-9ed0809ccdce.png)<br>
      Note: 0.0.0.0/0. Allows inbound HTTP access from any IPv4 address. TCP. 6. 443 (HTTPS)
 
   <strong> Test your VPC through provisioning new instance</strong>
