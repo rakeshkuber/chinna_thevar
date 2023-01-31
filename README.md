@@ -263,7 +263,17 @@ The 3 most essential benefits you get from a VPC are privacy, security and preve
   Note: You have the VPC and subnet which you have created not the default one.<br>
   ![image](https://user-images.githubusercontent.com/122355244/215737727-e9295066-3ab6-4702-bebc-1f1704c685e7.png)
   
-   <strong>HAPPY LEARNING</strong>
+   <strong>Private Subnet vs Public subnet</strong> <br>
+<strong>Public Subnet</strong>: A public subnet is a subnet that is associated with a route table that has a route to an Internet gateway. This connects the VPC to the Internet and to other AWS services.   
+
+<strong>Private Subnet</strong>: A private subnet is a subnet that is associated with a route table that doesn’t have a route to an internet gateway. Instances in the private subnet are backend servers they don’t accept the traffic from the internet. 
+  
+<strong>Why Public Subnet</strong> ? 
+The resources in the public subnet can send outbound traffic directly to the Internet and vice versa. For example web server needs to be accessed by users from the internet.   
+
+<strong>Why Private Subnet ?</strong> 
+
+Resources like database may require connection to internet for updates/patches but should not be accepting request from the internet. In such cases a private subnet is to be used.
 
 
 
