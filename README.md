@@ -374,7 +374,66 @@ Post this check try to ping google or try to install any pakagesin the private s
 
     Cloud-init is executing the command provided in the user data.
     
+  3. <strong>AMI-CREATE,COPY AND MANAGE PERMISSIONS: </strong>
+     what is AMI ?
+     
+     AMI is a template which contains OS and other related softwares. You can select your AMI at the time of EC2-instance launch.
+     
+     ![image](https://user-images.githubusercontent.com/122355244/216751716-f2d85540-3a4e-4714-b6b1-956d8e00c2eb.png)
+     ![image](https://user-images.githubusercontent.com/122355244/216751779-754e7cb7-ba84-43a9-8a69-0d86c59ab53b.png)
+  
+     AMI market place will show you all the AMI's which are managed by the 3-rd party vendors. You can buy the AMI'S form the 3rd partyvendors and run in the AWS cloud.
     
+   ![image](https://user-images.githubusercontent.com/122355244/216751854-d1c0360f-4a39-49f1-98ee-1828161de777.png)
+
+
+   Coummunity AMI's ae created and managed by the different communities and provide access to the public.
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216751951-a0ad17f5-69b0-46c8-b4e4-165ba0ed11bb.png)
+
+    <strong>CREATE CUSTOM AMI</strong>
+    
+Let's say every organization is having certain configuration steps needs to be done on every EC-2 instacne  which is eployed on the AWS cloud. It'a tedious job to congfigure these configuration steps manually on  a every EC-2 instance. Once the server is lanuched. Hence you can deploy the EC2 instance by base AMI which is provided by the AWS. Then you can configure as per the bussiness needs. Then you can create a custom AMI from the running fully configured instance. So that the AMI which are creating will be fully packed with the required configuration as per the bussiness needs. 
+
+In my case ec2-instance already configured as a webserver as per my org standards. 
+
+Now we will go-head and create the AMI.
+
+ To create a AMI select the instance go to actions. Click on Image&templates and create image. 
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216752583-d19a599c-4c77-463a-8ed7-4c0e0fb0b8c7.png)
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216752676-127d6336-4527-453e-b1cb-a1f3a53de5ff.png)
+![image](https://user-images.githubusercontent.com/122355244/216752712-5835e61f-23d4-4261-981a-ca23b15702a8.png)
+
+ 
+ Aws providing an option not to reboot the instance at the time AMI creation. Make sure you check the boxif its a production instance. 
+ 
+ 
+ Under the image click on AMI.
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216752773-75394898-eacd-414a-b882-889ecbbb361b.png)
+
+ Once the AMI is in available state. We can use the AMI at the time launching the new instance. 
+ 
+ under MY AMI's select your custom AMI.
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216752921-a2cef0d5-85f7-4f20-b74e-4673be3f9916.png)
+
+Now you can see the same webserver is live on new ec2-instance.
+![image](https://user-images.githubusercontent.com/122355244/216753115-4cb33a73-c2cc-4152-ad40-7d8d99285c0c.png)
+
+ when you have created the custom AMI. By default the AMI is a private. Means that AMI is accessible only in your account. In order to manage the permessions follow the below.
+ 
+ Select the AMI and click the edit EMI permissions and make it public.
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216753313-efb2d09e-2449-4076-9ec9-6ec38880d47d.png)
+
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/216753279-d6742d29-7ca6-4e10-831e-c878892e323c.png)
+
+Higly recommanded only go with private. If the AMI consists any ORG level data.
+
 
 
 
