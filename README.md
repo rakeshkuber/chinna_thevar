@@ -4,6 +4,7 @@ Author: </br>![](https://img.shields.io/badge/RAKESH-KUBENDRAN.CHINNA-green)
 
 **TOP 25 SERVICES:** 
 - [EC2](#id-EC2)
+- [AdvanceEC2 Concepts](#id-AEC2)
 - [VPC](#id-VPC)
 - [Lambda](#id-Lambda)
 - [Route 53](#id-Route53)
@@ -329,6 +330,51 @@ Specifiy that by default the network traffic should go the NAT-gateway if the de
 
 Post this check try to ping google or try to install any pakagesin the private subnet instance to validate.  
 
+<div id='id-AEC2'/>
+<strong>EC2-ADVANCE_CONCEPT</strong>
+
+1. EC2-Instance_Meta_data-retrival. 
+
+   execute the below URL end point to retrive the AWS EC2-META DATA.
+   
+   curl http://169.254.169.254/latest/meta-data/
+   
+   ![image](https://user-images.githubusercontent.com/122355244/216750239-6b1da164-8521-4d03-9433-f556f12025ed.png)
+   
+2. Bootstrap EC2-instance:
+
+     What is Bootstrap?
+      Installing your application, dependencies, or customizations whenever an Amazon EC2 instance is launched.
+      
+     while provisioning EC2-instance, In Advance details section you can find the USER DATA-OPTIONAL, here you can provide your command on the user data section.
+     
+     ![image](https://user-images.githubusercontent.com/122355244/216750458-433b631f-e62d-4577-8b2b-42005ad01c41.png)
+     ![image](https://user-images.githubusercontent.com/122355244/216750479-8a3156b2-168c-41bc-ad6f-13d0876b867d.png)
+
+     In my case, I'm installing  apache. here is my code. below commands will be executed at the time of ec2 instance is launched. 
+     
+     "#!/bin/bash <br>
+      yum update -y <br>
+      yum install -y httpd.x86_64 <br>
+      systemctl start httpd.service <br>
+      systemctl enable httpd.service <br>
+      echo “TEST PAGE BY RRAKESH KUBER from $(hostname -f)” > /var/www/html/index.html"
+      
+    ![image](https://user-images.githubusercontent.com/122355244/216750654-02d9aef8-dea1-442e-86ad-c2aba4156971.png)
+    
+    Copy your public IP and open it in chrome. (Make sure you have opend port 80 in your security group)
+    
+    ![image](https://user-images.githubusercontent.com/122355244/216751092-2c9f57df-ec7f-4a55-a6f0-f97c9a28bbe1.png)
+    
+    Successfully you have installed your apache service at the time of EC2-instance launch. You can check the get system log to see the user data action.
+    
+    Get system log:
+    
+    ![image](https://user-images.githubusercontent.com/122355244/216751224-2012a8ec-c546-455d-a173-ef3335e37581.png)
+
+    Cloud-init is executing the command provided in the user data.
+    
+    
 
 
 
