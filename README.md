@@ -469,6 +469,22 @@ Partition placement group are more recommended for the applications which are la
 
 Spread placement group are more recommended for small number of critical instances that sholud be kept sperate from each others.
 
+<strong>LOGIN TO PLACEMENT GROUPS TO SEE THE PLACEMNET GROUPS</strong>
+
+![image](https://user-images.githubusercontent.com/122355244/216755426-f8e43e2b-70ae-4a86-944e-43b2438d5705.png)
+
+specify the placement statergy:
+
+![image](https://user-images.githubusercontent.com/122355244/216755545-a7a62efb-7a15-433b-9376-55a1497ff5e0.png)
+
+Note: "A partition placement group can have a maximum of seven partitions per Availability Zone."
+
+Select the partition group at the time of launching the instance.
+
+![image](https://user-images.githubusercontent.com/122355244/216755738-c2feb5d7-048e-4a03-af08-3dc317d08ae2.png)
+
+
+
 <div id='id-VPC'/>
 <div id='id-Lambda'/>
 <div id='id-Route53'/>
