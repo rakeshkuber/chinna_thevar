@@ -333,7 +333,7 @@ Post this check try to ping google or try to install any pakagesin the private s
 <div id='id-AEC2'/>
 <strong>EC2-ADVANCE_CONCEPT</strong>
 
-1. EC2-Instance_Meta_data-retrival. 
+1. <strong>EC2-Instance_Meta_data-retrival.</strong> 
 
    execute the below URL end point to retrive the AWS EC2-META DATA.
    
@@ -341,7 +341,7 @@ Post this check try to ping google or try to install any pakagesin the private s
    
    ![image](https://user-images.githubusercontent.com/122355244/216750239-6b1da164-8521-4d03-9433-f556f12025ed.png)
    
-2. Bootstrap EC2-instance:
+2. <strong>Bootstrap EC2-instance:</strong>
 
      What is Bootstrap?
       Installing your application, dependencies, or customizations whenever an Amazon EC2 instance is launched.
@@ -434,8 +434,40 @@ Now you can see the same webserver is live on new ec2-instance.
 
 Higly recommanded only go with private. If the AMI consists any ORG level data.
 
+Use you can share the AMI's with other Account trustable account as well.
+
+![image](https://user-images.githubusercontent.com/122355244/216753383-d4810722-72fe-4643-936a-16b411339706.png)
+
+Note: AMI'S are region specific. In order to copy AMI from one region to other region follow the below.
+
+![image](https://user-images.githubusercontent.com/122355244/216753462-e973e469-fb37-4617-a912-894d81fa2b1e.png)
+
+![image](https://user-images.githubusercontent.com/122355244/216753495-d32a0260-1d95-41a5-a662-2c0d98b6b999.png)
+
+select the destination region. Now onwards your AMI will be available in your destination region. You can create a new instance with that AMI.  
 
 
+<strong>EC2-PLACEMENT GROUPS</strong>
+
+Currently AWS supporting below 3 placement groups.
+
+1.Cluster
+2.Partition
+3.Spread
+
+<strong>Cluster:</strong>: AWS is maintaing the pysical servers in racks and respective availabilyty zone. when you created a cluster placement group AWS will consider setup a racks in the cluser placement groups. then when you deploye  a ec2-instance in a cluster placment group. It enusre that all the servers will sharing the hardware from the set of racks consider in the placement group. 
+
+<strong>Partition:</strong>: when you have created the partition group. Aws will ensure that multiple partitions are creatd in the availablity zone. As per the selection. Each partiton is created as a set of racks creatd as a partiton cluster.  when you are deploying the ec2-instanecs in the partition cluster. you need to specify the instacne should be get created in which partition. when you have choosen a partition as a partition1. servers will be created on the hardware which is consider as a partition 1
+
+<strong>Spread:</strong> when you are deploying the instance in the spread placement groups.Aws will ensure that each instance is deployed into the set of racks created as a sperate cluster. 
+
+Aws will ensure that single set of racks which is created as a cluster is not having multiple instances. One instance will deployed into one set of racks. 
+
+Cluster placement group are more recommended for the applications which would required a low network latance and hig network throughput
+
+Partition placement group are more recommended for the applications which are large distributed and replicated workloads between the EC2-instance. 
+
+Spread placement group are more recommended for small number of critical instances that sholud be kept sperate from each others.
 
 <div id='id-VPC'/>
 <div id='id-Lambda'/>
