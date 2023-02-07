@@ -508,4 +508,31 @@ Select the partition group at the time of launching the instance.
 <div id='id-SecretsManager'/>
 <div id='id-CloudFormation'/>
 <div id='id-EBS'/>
+
+<strong>EBS</strong>
+
+When you are launching a ec2 instance in any one  of the avilability zone by default one root volume get created and attached to the EC2-instacne.
+
+Every ec2-instance has its own root EBS volume and its also possible to create additional volumess and attched to the ec2-instance.
+
+ TWO TYPES OF VOLUMES CURRENTLY SUPPORTING BY AWS.
+   1. EBS Volumes.
+   2. Instance store Volumes. 
+ <strong> EBS volume Types:</strong>
+
+- General Purpose SSD(gp2)
+- Provisioned IOPS SSD(io1)
+- Throughput Optimized HDD(st1)
+- Cloud HDD(sc1)
+- Magnetic (standard)
+
+<strong> EBS Volume Characteristics </strong>
+
+- Persistent block storage volumes
+- 99.999% availability
+- Automatically replicated within its Availability Zone(AZ)
+- Point in time Snapshoot support.
+- Modify volume types as per the bussiness needs. 
+
+
 <div id='id-CostExplorer'/>
