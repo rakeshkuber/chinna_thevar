@@ -534,5 +534,34 @@ Every ec2-instance has its own root EBS volume and its also possible to create a
 - Point in time Snapshoot support.
 - Modify volume types as per the bussiness needs. 
 
+Log in to the ec2 instance and type the command lsblk
+
+![image](https://user-images.githubusercontent.com/122355244/217429622-d9010051-78af-4124-ab52-5d67eaad18f3.png)
+
+you will see outupt xvda is attached to the current instance. 
+
+xvda - os level nameing standards for your EBS volumes.
+
+Will show you how to create one more ebs volume and attached to the same ec2-instance.
+
+![image](https://user-images.githubusercontent.com/122355244/217430224-665fbaf8-6b32-43e5-a7a6-9ea244f72406.png)
+
+Scroll down to the volumes and create volume.
+
+![image](https://user-images.githubusercontent.com/122355244/217430330-def509e8-d29b-4354-a68b-47c667bd2b72.png)
+
+![image](https://user-images.githubusercontent.com/122355244/217430462-478a6394-374d-4286-b3ef-f13d6359b3e0.png)
+ 
+ Once the volume state is in available state attch to your ec2-instance.
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/217430923-056f6c1f-238e-459c-9841-864583712435.png)
+
+ ![image](https://user-images.githubusercontent.com/122355244/217431326-d118fd52-4a47-48cc-a6b6-4bbe027e4ae3.png)
+ 
+ Successfully attached the new EBS volume to the EC2-INSTANCE.
+ 
+ ![image](https://user-images.githubusercontent.com/122355244/217431641-44e44f27-db69-4bcb-a8d4-9238474c5600.png)
+
+
 
 <div id='id-CostExplorer'/>
