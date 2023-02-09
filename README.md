@@ -483,6 +483,16 @@ Select the partition group at the time of launching the instance.
 
 ![image](https://user-images.githubusercontent.com/122355244/216755738-c2feb5d7-048e-4a03-af08-3dc317d08ae2.png)
 
+<strong> INSTANCE STORAGE VOLUMES</strong>'
+
+Instance storage volumes- Hardware attached to EC2-instance.
+
+                         - Data cannot be replicated by default
+                         
+                         - Not possible to take snapshot.
+                         
+The data which is stored in the Instance storage volume will not be persistance. 
+
 
 
 <div id='id-VPC'/>
@@ -495,11 +505,96 @@ Select the partition group at the time of launching the instance.
 <div id='id-IAM'/>
 <div id='id-APIGateway'/>
 <div id='id-CloudWatch'/>
+
+<strong>what is cloud watch ?</strong>
+
+Monitoring solution provided by the AWS to monitor the AWS resources. 
+
+If any case you end up with any perfromance issue. You would be reqiured to see the utilization performance of RAM and PROCESSOR of the EC2-instance. Based on the utilization metrices you will be knowing to change the instance type to meet the bussiness requirements. The compenent which is  monitoring any AWS iscalled metrics. This metrics can be seen through clouddwatch.
+
+![image](https://user-images.githubusercontent.com/122355244/217433684-20e01a5b-04d2-44b0-b6b0-2956206c5902.png)
+
+
+Search for cloudwatch.
+
+![image](https://user-images.githubusercontent.com/122355244/217434721-500e7901-9d18-4ad5-86b5-d88ac968b446.png)
+
+Click on Metric. It will show you all available metrics. It will show you all the possible, available metrics for all various resourse created in the regions.
+
+![image](https://user-images.githubusercontent.com/122355244/217435146-a8dc7797-f486-4407-8176-f12b3c74bc3d.png)
+
+Click on EC2 and per instance metric.
+
+![image](https://user-images.githubusercontent.com/122355244/217435857-e737a059-3ab2-4c56-916c-afa368cc0a32.png)
+
+Filter based on your EC-2 instacne. It will show all the metrices currently available for the EC2-Instance.
+
+![image](https://user-images.githubusercontent.com/122355244/217436108-b3f4273b-a600-4ad5-b229-cec7a4114932.png)
+
+To see the CPU utlization click the cpu utilization.
+
+![image](https://user-images.githubusercontent.com/122355244/217436496-c8f1b4aa-4218-46b4-bc86-a92ba7264f34.png)
+
+![image](https://user-images.githubusercontent.com/122355244/217436527-56dc4464-0d3a-4643-af85-c28d750b9811.png)
+
+![image](https://user-images.githubusercontent.com/122355244/217440416-c066fab2-2d34-4ce2-be3b-208feb429dc3.png)
+
+<strong>create custom dashboard</strong>
+
+![image](https://user-images.githubusercontent.com/122355244/217441645-a5aaf02d-acf7-49ad-a5ea-b9f4af24e7bc.png)
+
+![image](https://user-images.githubusercontent.com/122355244/217441858-999c6dd7-d4e2-4355-9545-8b80abe42b4f.png)
+
+Select Metrices:
+
+![image](https://user-images.githubusercontent.com/122355244/217442137-59527e7e-12f5-4c31-8f14-d55abbb8f8ac.png)
+
+![image](https://user-images.githubusercontent.com/122355244/217442304-6111a208-b018-48d6-ba8a-906b069890b9.png)
+
+![image](https://user-images.githubusercontent.com/122355244/217442730-7689bc94-8b37-438c-9080-7d4bcddc8a1a.png)
+
+
+successfully created your custom dash board.
+
+![image](https://user-images.githubusercontent.com/122355244/217442504-8c456a1f-206c-4c83-854a-48e21082b371.png)
+
+<strong>cloudwatch_Alarm</strong>
+
+
+
+***
+
 <div id='id-TrustedAdviser'/>
 <div id='id-EFS'/>
 <div id='id-SNS'/>
+
+
+***
+
 <div id='id-Lightsail'/>
 <div id='id-CertificateManager'/>
+
+<strong>what is Certificate Mannager</strong>
+
+Certificate manager service is used to provision, Manage,deploy and renew SSL and TLS certificate on AWS platform.
+
+Lets get understanding data encryption and types.
+
+1. Data encryption at Rest
+2. Data encryption in transit
+
+
+<strong>Create SLL/TSL certificate</strong>
+
+Head over to the managment console and search for Certificate manager.
+
+![image](https://user-images.githubusercontent.com/122355244/217505536-de249a2e-9b0a-4838-b0b6-62b265242bca.png)
+
+specify the domain name:
+
+![image](https://user-images.githubusercontent.com/122355244/217506131-9782988b-5c4c-461a-a36b-fa9787dfc2e0.png)
+
+
 <div id='id-KMS'/>
 <div id='id-S3'/>
 <div id='id-CloudTrail'/>
