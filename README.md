@@ -566,6 +566,31 @@ successfully created your custom dash board.
 
 <div id='id-TrustedAdviser'/>
 <div id='id-EFS'/>
+
+<strong>What is EFS</strong>
+
+AWS EFS service is used to setup and manage network file storage of EC2-instances.
+Let's say you have multiple ec2-instancs created in differnt availaibilty zones. when you have installed and configured appliaction cluster on these ec2-instacne. This ec2-instance required a shared data access. when you configured application cluster. If one of the system is down other instance will contineou the services to the end customers. Hence all the instances which part of the appliaction cluster would require the same data access. AWS is introducing EFS service to provide shared data access to multiple instances and providing the integrity of the data when multiple ec2-instance accessing the data at the same time. 
+
+EFS is region level service. EFS service is used by the multiple ec2-instances in a differnt availability zone to have the access to the same data. 
+
+EFS CHARACTERISTICS:
+  1. NETWORK FILE SYSTEM.
+  2. EBS
+  3. PAY AS YOU GO SERVICE.
+  4. scale on demand. 
+
+Once EFS service is created will be mounted in the multiple ec-2 instances. EFS will be createing mounted targets in the each and every availabilty zone through this mounted targets EFS can mounted locally in the EC-2 instances. 
+
+EC-2 instacnes will be making a request through port 2049 as its a network file system. Hence the reason you to create security group for your EFS making sure 2049 is allowd in the inbound rules. Once the port access has been granted to EC-2 instaces. EFS file system can be mounted as a local file system in all the ec-2 instacnes which are part of the applaiction cluster. 
+
+
+When you mounted EFS file system as local file system it will be mounted as /mnt in all the ec2-instacnes. Means the data which is stroed in EFS system will be access by all the systems which are part of the appliaction cluster.
+
+<strong>CREATE EFS</strong>
+
+
+
 <div id='id-SNS'/>
 
 
