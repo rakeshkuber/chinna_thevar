@@ -589,6 +589,11 @@ When you mounted EFS file system as local file system it will be mounted as /mnt
 
 <strong>CREATE EFS</strong>
 
+1. First Allow the 2049 port for the EC2-instacne. For this we are creating a new security group. 
+   ![image](https://user-images.githubusercontent.com/122355244/218233016-d88b789f-4b88-404e-a952-80538bd33d47.png)
+   ![image](https://user-images.githubusercontent.com/122355244/218233049-8195828e-1b05-4cac-b909-ad7c4734a938.png)
+
+
 
 
 <div id='id-SNS'/>
