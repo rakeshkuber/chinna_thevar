@@ -536,8 +536,40 @@ It will comes with installed and configured with the required RDBMS software.
 
 
 <div id='id-DynamoDB'/>
+<strong>DynamoDB: Managed NOSQLDATABASE</strong>
+
+1.create Dynamo DB table.
+
+![image](https://user-images.githubusercontent.com/122355244/218354892-c21aafeb-6116-4946-ad0f-c70de5b22366.png)
+2. DynamoDB is a schemaless database that requires only a table name and a primary key when you create the table.
+3.![image](https://user-images.githubusercontent.com/122355244/218408729-0651afd9-4e4f-4e66-91b6-119c1066cb69.png)
+4.![image](https://user-images.githubusercontent.com/122355244/218408869-a53f8d9e-ee93-4c48-a410-747f6abccd3a.png)
+
+
+
 <div id='id-IAM'/>
 <div id='id-APIGateway'/>
+<strong>API gateway is used to build, deploy and manage API'S
+   
+Let's say we have deployed the application in the lambda function or in the EC2-instance. If it's streaming related data application then the application will deployed in the kinesis service and if its database solution you can even use dynamoDB or the appliaction might be installed and configured in any of AWS services as per the bussiness needs. 
+
+At the end, all the applications will be deliver to the end customers.
+
+End customer accessing the bussiness applications over the internet based on their needs. Some customer use the bussiness applaictionsonly to view the stats. some other customers also use the same bussiness appliaction to download the data. To overcome this, AWS has introduced API gateway.
+   
+When the client wants to access the applaiction. The request wil go through the API gateway. 
+   
+   <strong>API GATEWAY LAB SETUP</strong>
+   1. Head over the AWS console and search for API GATEWAY.
+   ![image](https://user-images.githubusercontent.com/122355244/218415634-e2349cc5-5fc9-4c13-9a4c-0e12b117c710.png)
+   2. Choose the API. In my case i'have choosen the REST API.
+   ![image](https://user-images.githubusercontent.com/122355244/218416382-601bc9e5-9742-4ffa-8f0c-bff6e57ab4ba.png)
+   3. Choose the protocol.
+   ![image](https://user-images.githubusercontent.com/122355244/218416782-024c9892-46ad-4daa-bc48-d90c428dc601.png)
+   ![image](https://user-images.githubusercontent.com/122355244/218417435-07632f5b-8ee3-4e5d-8689-d4903322232d.png)
+   4. API Got created.
+   
+   
 <div id='id-CloudWatch'/>
 
 <strong>what is cloud watch ?</strong>
