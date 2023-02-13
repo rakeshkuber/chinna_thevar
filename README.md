@@ -593,6 +593,13 @@ When you mounted EFS file system as local file system it will be mounted as /mnt
    ![image](https://user-images.githubusercontent.com/122355244/218233016-d88b789f-4b88-404e-a952-80538bd33d47.png)
    ![image](https://user-images.githubusercontent.com/122355244/218233049-8195828e-1b05-4cac-b909-ad7c4734a938.png)
 
+2. Create EFS.
+   ![image](https://user-images.githubusercontent.com/122355244/218296420-31128135-5acb-478f-a1c5-9733daa7d962.png)
+   ![image](https://user-images.githubusercontent.com/122355244/218296465-cbe23d14-4ef4-4c99-98db-a11012b1a876.png)
+   ![image](https://user-images.githubusercontent.com/122355244/218296497-0f7b66c5-7adb-4a4f-8e7c-f27a23e8d748.png)
+3. Now attach the created EFS.
+   ![image](https://user-images.githubusercontent.com/122355244/218296528-75ca0de5-c51a-4ab5-a19a-a7b29a9b1dea.png)
+   ![image](https://user-images.githubusercontent.com/122355244/218296607-e1aad86d-3485-4615-a013-0b616088cfc3.png)
 
 
 
