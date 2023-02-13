@@ -501,6 +501,40 @@ The data which is stored in the Instance storage volume will not be persistance.
 <div id='id-Glacier'/>
 <div id='id-CloudFront'/>
 <div id='id-RDS'/>
+<strong>WHAT IS RDS?</strong>
+
+Let's say clinet is accessing the web application www.google.com.Then the web app must be host on the web app server. Clinet can initiate http request to the server to get the webpages. If the web appliaction is very static then application server itself enough to keep the appliaction related data and can start serving the data back to the clinets but if the web app dynamic in nature. The the appliaction server is not enough to keep the bussiness related data. Hence appliaction server would required database storage where the data can be saved. when we have separte ioslated database storage space then whatever data is uploded by the clinet that data will be saved in the database space. when the clinets would like to download the files. The data can be fetch from the data storge and given back to clinets. Database storage also can store the credentials of the users.
+
+
+When clinets are making a request to the appliaction server.Either to upload the data or download the data. Then appication server would connect to the database storage. Hence appliaction server taking a help of RDBMS software will be MYSQL,POSTGRESQL,ORACEL,SQLSERVR.So that applaiction server can make a request to the database storage with the help RDBMS software.
+
+In this architecture,
+
+Application server is only installed and configured with the appliaction server software. Which can take the http request from the clinet. If the data access would be required application server connecting to the database and fetch the data. Its a tedious job to install and configure RDBMS software to work with the data base storage space. 
+
+Hence, AWS introduced RDS service wich is the database solution over the cloud. When ever we are used RDS service to create database
+
+It will comes with installed and configured with the required RDBMS software. 
+
+<strong>RDS_LAB</strong>
+1. Search in Console for RDS.
+![image](https://user-images.githubusercontent.com/122355244/218349575-be24fe97-d09d-4c81-ac44-8a9e082e9473.png)
+2. Create database.
+![image](https://user-images.githubusercontent.com/122355244/218349754-08efbb5e-a687-4fc4-8ff3-0ed98983b4b4.png)
+3. Select the database.
+![image](https://user-images.githubusercontent.com/122355244/218349858-6a57dd89-db62-4b8b-a6d8-f8a49b704787.png)
+4. Select MYSQL version and template name.
+![image](https://user-images.githubusercontent.com/122355244/218350137-220ac91e-308a-4783-95c6-b8b293643a95.png)
+5. specify the master password.
+![image](https://user-images.githubusercontent.com/122355244/218350091-56111193-416b-4fbf-a373-8a5a68764d79.png)
+6. specify the storage as per the bussiness needs. 
+![image](https://user-images.githubusercontent.com/122355244/218350537-38488396-4499-41a6-98f8-1b3c7521dc01.png)
+7. In connectivity section.Specify your VPC.
+![image](https://user-images.githubusercontent.com/122355244/218351834-461b5da2-2a1d-4352-ba64-3ca21febfebe.png)
+8. Successfully created Amazon RDS.
+![image](https://user-images.githubusercontent.com/122355244/218354325-5e03f4a7-13f6-4638-acaa-2b745e51f890.png)
+
+
 <div id='id-DynamoDB'/>
 <div id='id-IAM'/>
 <div id='id-APIGateway'/>
