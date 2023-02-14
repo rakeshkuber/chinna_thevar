@@ -549,7 +549,7 @@ It will comes with installed and configured with the required RDBMS software.
 
 <div id='id-IAM'/>
 <div id='id-APIGateway'/>
-<strong>API gateway is used to build, deploy and manage API'S
+<strong>API gateway is used to build, deploy and manage API'S</strong>
    
 Let's say we have deployed the application in the lambda function or in the EC2-instance. If it's streaming related data application then the application will deployed in the kinesis service and if its database solution you can even use dynamoDB or the appliaction might be installed and configured in any of AWS services as per the bussiness needs. 
 
@@ -560,6 +560,7 @@ End customer accessing the bussiness applications over the internet based on the
 When the client wants to access the applaiction. The request wil go through the API gateway. 
    
    <strong>API GATEWAY LAB SETUP</strong>
+   
    1. Head over the AWS console and search for API GATEWAY.
    ![image](https://user-images.githubusercontent.com/122355244/218415634-e2349cc5-5fc9-4c13-9a4c-0e12b117c710.png)
    2. Choose the API. In my case i'have choosen the REST API.
@@ -568,7 +569,11 @@ When the client wants to access the applaiction. The request wil go through the 
    ![image](https://user-images.githubusercontent.com/122355244/218416782-024c9892-46ad-4daa-bc48-d90c428dc601.png)
    ![image](https://user-images.githubusercontent.com/122355244/218417435-07632f5b-8ee3-4e5d-8689-d4903322232d.png)
    4. API Got created.
-   
+   ![image](https://user-images.githubusercontent.com/122355244/218418144-2d41eb6a-45e6-4604-b9c8-f50e3f1c21c6.png)
+   5. ![image](https://user-images.githubusercontent.com/122355244/218418740-27603d76-3985-40f4-9459-3522b5231a77.png)
+   6. ![image](https://user-images.githubusercontent.com/122355244/218418974-a0b20d6e-4612-4391-9f28-31da3a81e751.png)
+   7. ![image](https://user-images.githubusercontent.com/122355244/218419132-9611719f-2ad2-436f-9537-c0b892e0cb54.png)
+
    
 <div id='id-CloudWatch'/>
 
@@ -703,7 +708,50 @@ specify the domain name:
 <div id='id-CloudTrail'/>
 <div id='id-SystemManager'/>
 <div id='id-Inspector'/>
+<strong>Amazon Inspector</strong>
+Amazon Inspector: Used to analyze the application level security. AWS is provinding amazon which can scan the EC2-instance and report you if the ec2-instane is not configured as per the bussiness practices and it can be scanned of any vulnerablity can be identified.
+
+Need to choose the assessment type.
+
+Network Assessment and Host Assessment.
+
+Network Asssessment - No agnet is required.
+Host Assessment - Agnet must be install in the target instance. 
+
+<strong>Setting up INSPECTOR Service </strong>
+
+1. ![image](https://user-images.githubusercontent.com/122355244/218601637-b62ad05c-c015-4271-85c2-fc0284750027.png)
+2. ![image](https://user-images.githubusercontent.com/122355244/218601880-05a6967f-9d7a-4fcf-8506-7c6343628dd3.png)
+3. I'm using the kay_pair_name tag. Means that ec2-instances which are associated with key_pair_name that will consider as assessment target. 
+4. ![image](https://user-images.githubusercontent.com/122355244/218607133-520d304e-758b-4062-90eb-a85b302b59cc.png)
+5. Preview the target,
+6. ![image](https://user-images.githubusercontent.com/122355244/218607868-bbb1c04d-90dd-402b-b585-f6bfb44279bf.png)
+7. Create assessment template.
+8. ![image](https://user-images.githubusercontent.com/122355244/218608700-89c5ef7e-8908-4ac3-8f96-8ce6546e4d2c.png)
+9. ![image](https://user-images.githubusercontent.com/122355244/218608834-bab6471a-b387-41e8-a7b4-53f5776c6382.png)
+10.![image](https://user-images.githubusercontent.com/122355244/218609010-9b44bfdd-9fb6-40a9-b22a-373811492e84.png)
+11. In Assessment Run. You will be able t download the report.
+12. ![image](https://user-images.githubusercontent.com/122355244/218609147-9e329aad-e008-44b5-8355-0190e23f38ab.png)
+
+
+
+
 <div id='id-SecretsManager'/>
+<strong>what is SecretsManager</strong>
+
+AWS Secret Manager enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle.
+It is one central location to keep all credentials secure.
+
+![image](https://user-images.githubusercontent.com/122355244/218424544-8c165379-df1b-44f5-8f38-e30a5194c5bc.png)
+
+1.Select the secret type.
+![image](https://user-images.githubusercontent.com/122355244/218599290-44200843-df95-4075-ab9a-68f951b75aea.png)
+2.Specifiy the secret name.
+![image](https://user-images.githubusercontent.com/122355244/218599628-9725d7ba-d3fb-4c7a-9138-4c267f7bc321.png)
+3. Successfully created the secret.
+![image](https://user-images.githubusercontent.com/122355244/218599886-20e3a5dc-2b40-4315-857e-dc6c177d0c29.png)
+
+
 <div id='id-CloudFormation'/>
 <div id='id-EBS'/>
 
