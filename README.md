@@ -766,6 +766,21 @@ Elastic Beanstalk is a service for deploying and scaling web applications and se
 
 ![image](https://user-images.githubusercontent.com/122355244/218612821-20ccd669-abdc-45b2-9127-6e5a57399e8a.png)
 
+select the platform:
+![image](https://user-images.githubusercontent.com/122355244/218613105-7bb1cfff-ea13-40df-8830-b539c16af1da.png)
+
+specify the your code.
+
+![image](https://user-images.githubusercontent.com/122355244/218613205-351bf3be-7361-4a16-87ae-34f496c946cd.png)
+
+You can upload your code in the format of .ear or .war files.
+
+with the same code in EBS appliaction has created. 
+
+![image](https://user-images.githubusercontent.com/122355244/218613771-adb6006f-42d3-4618-86ec-b79f33d6d9d0.png)
+
+
+
 
 
 ***
