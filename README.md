@@ -759,6 +759,16 @@ It is one central location to keep all credentials secure.
 
 <div id='id-CloudFormation'/>
 <div id='id-EBS'/>
+<strong>WHAT IS EBS</strong>
+Elastic Beanstalk is a service for deploying and scaling web applications and services. Upload your code and Elastic Beanstalk automatically handles the deployment—from capacity provisioning, load balancing, and auto scaling to application health monitoring.
+
+<strong>EBS LAB:</strong>
+
+![image](https://user-images.githubusercontent.com/122355244/218612821-20ccd669-abdc-45b2-9127-6e5a57399e8a.png)
+
+
+
+***
 
 <strong>EBS</strong>
 
