@@ -404,7 +404,7 @@ Now we will go-head and create the AMI.
  ![image](https://user-images.githubusercontent.com/122355244/216752583-d19a599c-4c77-463a-8ed7-4c0e0fb0b8c7.png)
  
  ![image](https://user-images.githubusercontent.com/122355244/216752676-127d6336-4527-453e-b1cb-a1f3a53de5ff.png)
-![image](https://user-images.githubusercontent.com/122355244/216752712-5835e61f-23d4-4261-981a-ca23b15702a8.png)
+ ![image](https://user-images.githubusercontent.com/122355244/216752712-5835e61f-23d4-4261-981a-ca23b15702a8.png)
 
  
  Aws providing an option not to reboot the instance at the time AMI creation. Make sure you check the boxif its a production instance. 
@@ -720,21 +720,21 @@ Host Assessment - Agnet must be install in the target instance.
 
 <strong>Setting up INSPECTOR Service </strong>
 
-1. ![image](https://user-images.githubusercontent.com/122355244/218601637-b62ad05c-c015-4271-85c2-fc0284750027.png)
-2. ![image](https://user-images.githubusercontent.com/122355244/218601880-05a6967f-9d7a-4fcf-8506-7c6343628dd3.png)
-3. I'm using the kay_pair_name tag. Means that ec2-instances which are associated with key_pair_name that will consider as assessment target. 
-4. ![image](https://user-images.githubusercontent.com/122355244/218607133-520d304e-758b-4062-90eb-a85b302b59cc.png)
-5. Preview the target,
-6. ![image](https://user-images.githubusercontent.com/122355244/218607868-bbb1c04d-90dd-402b-b585-f6bfb44279bf.png)
-7. Create assessment template.
-8. ![image](https://user-images.githubusercontent.com/122355244/218608700-89c5ef7e-8908-4ac3-8f96-8ce6546e4d2c.png)
-9. ![image](https://user-images.githubusercontent.com/122355244/218608834-bab6471a-b387-41e8-a7b4-53f5776c6382.png)
-10.![image](https://user-images.githubusercontent.com/122355244/218609010-9b44bfdd-9fb6-40a9-b22a-373811492e84.png)
-11. In Assessment Run. You will be able t download the report.
-12. ![image](https://user-images.githubusercontent.com/122355244/218609147-9e329aad-e008-44b5-8355-0190e23f38ab.png)
+1. ![image](https://user-images.githubusercontent.com/122355244/218601637-b62ad05c-c015-4271-85c2-fc0284750027.png)<br>
+2. ![image](https://user-images.githubusercontent.com/122355244/218601880-05a6967f-9d7a-4fcf-8506-7c6343628dd3.png)<br>
+3. I'm using the kay_pair_name tag. Means that ec2-instances which are associated with key_pair_name that will consider as assessment target. <br>
+4. ![image](https://user-images.githubusercontent.com/122355244/218607133-520d304e-758b-4062-90eb-a85b302b59cc.png)<br>
+5. Preview the target,<br>
+6. ![image](https://user-images.githubusercontent.com/122355244/218607868-bbb1c04d-90dd-402b-b585-f6bfb44279bf.png)<br>
+7. Create assessment template.<br>
+8. ![image](https://user-images.githubusercontent.com/122355244/218608700-89c5ef7e-8908-4ac3-8f96-8ce6546e4d2c.png)<br>
+9. ![image](https://user-images.githubusercontent.com/122355244/218608834-bab6471a-b387-41e8-a7b4-53f5776c6382.png)<br>
+10.![image](https://user-images.githubusercontent.com/122355244/218609010-9b44bfdd-9fb6-40a9-b22a-373811492e84.png)<br>
+11. In Assessment Run. You will be able t download the report.<br>
+13. ![image](https://user-images.githubusercontent.com/122355244/218609147-9e329aad-e008-44b5-8355-0190e23f38ab.png)
 
 
-
+***
 
 <div id='id-SecretsManager'/>
 <strong>what is SecretsManager</strong>
