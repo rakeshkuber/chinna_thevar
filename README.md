@@ -680,6 +680,11 @@ When you mounted EFS file system as local file system it will be mounted as /mnt
 ***
 
 <div id='id-Lightsail'/>
+
+<strong>LightSail</strong>
+
+Lightsail provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites and web applications in the cloud.
+
 <div id='id-CertificateManager'/>
 
 <strong>what is Certificate Mannager</strong>
